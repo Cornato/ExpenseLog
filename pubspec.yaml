@@ -1,0 +1,29 @@
+name: managment
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit: ^4.2.1 # Use the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icon/icon.png" # Path to the Android icon
+  image_path_ios: "assets/icon/icon.png" # Path to the iOS icon
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
